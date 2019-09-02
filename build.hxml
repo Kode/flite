@@ -1,0 +1,9 @@
+-cp src
+-cp src-test
+-main Main
+-js main.js
+--remap flash:openfl
+-D html5
+-debug
+--macro include("openfl")
+--macro include("starling")

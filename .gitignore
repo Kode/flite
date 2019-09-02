@@ -1,0 +1,4 @@
+/build/*
+!/build/debug-html5
+/build/debug-html5/*
+!/build/debug-html5/kha.js

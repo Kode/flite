@@ -1,0 +1,4 @@
+{
+	// "haxe.enableCompilationServer": false,
+	"haxe.codeGeneration": {"imports": {"enableAutoImports": false}},
+}

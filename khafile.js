@@ -1,0 +1,11 @@
+let project = new Project("Flite");
+project.addAssets("assets");
+project.addSources("src");
+project.addSources("src-test");
+project.addShaders("src/openfl/_internal/shaders");
+project.addParameter('--macro include("openfl")');
+project.addParameter('--macro include("starling")');
+project.addParameter('--remap flash:openfl');
+project.addDefine('html5');
+project.addDefine("kha_disable_context_menu");
+resolve(project);
